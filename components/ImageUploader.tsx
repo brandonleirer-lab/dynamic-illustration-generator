@@ -2,7 +2,7 @@
 import React, { useCallback, useState } from 'react';
 import type { UploadedImage } from '../types';
 import { UploadIcon, SparklesIcon, Spinner } from './icons';
-import { generateImageFromText } from '../services/geminiService';
+
 
 interface ImageUploaderProps {
   onImageUpload: (image: UploadedImage | null) => void;
