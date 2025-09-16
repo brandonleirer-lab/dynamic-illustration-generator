@@ -17,7 +17,7 @@ export const generateImageVariation = async (
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({
-                model: 'gemini-1.5-flash-latest',
+                model: 'gemini-2.5-flash-image-preview',
                 contents: {
                     parts: [
                         { inlineData: { data: base64Image, mimeType: mimeType } },
