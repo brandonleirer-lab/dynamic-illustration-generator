@@ -1,0 +1,5 @@
+{
+  "name": "Dynamic Illustration Generator",
+  "description": "Upload an illustration or avatar, provide text prompts for adjustments, and use Gemini to generate creative variations of your image.",
+  "requestFramePermissions": []
+}
