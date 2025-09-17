@@ -24,7 +24,7 @@ export const generateImageVariation = async (
                         { text: prompt },
                     ],
                 },
-                config: { responseMimeType: "image/png" },
+                //config: { responseMimeType: "image/png" },
             }),
         });
 
